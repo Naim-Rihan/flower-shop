@@ -43,6 +43,79 @@ body{
     align-items: flex-start;
     gap: 10px;
 }
-.head-image{
+.image{
+    margin-top: 50px;
+}
+/* feature section styles */
+.feature{
+    text-align: center;
+}
+.feature-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
 
+}
+.feature-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    flex-direction: column;
+    margin-left: 663px;
+    margin-right: 633px;
+}
+.flower-name{
+    margin-top: 100px
+}
+.beautiful-flower{
+    text-align: center;
+    display: flex;
+}
+.flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    margin: 110px 78px 0px 75px;
+}
+.image-info-container{
+    display: inline-flex;
+    margin: 40px 250px 0px 250px;
+}
+/* Deal section styles */
+.section-display{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    margin-top: 100px;
+    align-items: center;
+}
+.deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal-msg{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+}
+#button{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 250px;
+}
+.deal-image{
+    padding: 100px 400px 100px 1150px;
 }
