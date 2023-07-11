@@ -5,70 +5,44 @@ body{
 }
 /* Header section styles */
 .head-part{
-    align-items: flex-end;
-    background-color: #ffffff;
+    background: rgba(229, 84, 115, 0.10);
     display: flex;
-    overflow: hidden;
-    position: relative;
+    gap: 100px;
+    height: 100%;
     width: 100%;
 }
-.container{
-    align-items: center;
-    background-color: rgba(229, 84, 115, 0.1000000015);
-    box-sizing: border-box;
-    display: flex;
-    flex-shrink: 0;
-    height: 85rem;
-    padding: 5rem 24rem 0rem 24rem;
-    width: 100%;
-}
-.first-block{
-    border-radius: 0.8rem;
-    flex-direction: column;
-    flex-shrink: 0;
-    height: calc(100% - 29.4rem);
-    margin: 14.7rem 9.7rem 14.7rem 0rem;
-    row-gap: 3.2rem;
-    width: 70.8rem;
+.banner-container{
+    margin-left: 200px;
+    margin-top: 180px;
+    margin-bottom: 150px;
+
 }
 .head-title{
     color: #272727;
-    flex-shrink: 0;
-    font-family: Lato, 'Source Sans Pro';
-    font-size: 8rem;
+    font-size: 80px;
     font-weight: 800;
-    line-height: 1.2;
-    max-width: 68.1rem;
+    width: 800px;
+
 }
-.head-descripton{
-    color: rgba(39, 39, 39, 0.6000000238);
-    flex-shrink: 0;
-    font-family: Lato, 'Source Sans Pro';
-    font-size: 1.8rem;
+.head-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
     font-weight: 400;
-    line-height: 1.6666666667;
-    max-width: 60.6rem;
+    line-height: 30px;
+    flex-direction: column;
+    width: 634px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .btn-primary{
-    align-items: center;
-    background-color: #e55473;
+    border-radius: 18px;
+    background: #E55473;
     border: 0px;
-    border-radius: 0.8rem;
-    color: #ffffff;
-    flex-shrink: 0;
-    font-family: Lato, 'Source Sans Pro';
-    font-size: 2rem;
-    font-weight: 700;
-    height: 6.4rem;
-    justify-content: center;
-    line-height: 1.2;
-    white-space: nowrap;
-    width: 17.7rem;
+    color: white;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
 }
 .head-image{
-    flex-shrink: 0;
-    height: 80rem;
-    object-fit: cover;
-    vertical-align: top;
-    width: 63.5rem;
+
 }
